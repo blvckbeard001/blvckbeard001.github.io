@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+#banner {
+	height: 40rem;
+	width: 100%;
+	background-image: url("./resources/banner.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 40rem;
+}
+nav {
+	height: 4rem;
+	width: 100%;
+	background-color: #ff1e1e;
+}
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 4rem;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+}
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+nav li a:hover {
+	color: white;
+}
+nav li a:active {
+	color: grey;
+}
+#leaders {
+	display: flex;
+	justify-content: center;
+	background-color: blue;
+	height: 20rem;
+	width: 100%;
+}
+#leaders > h1 {
+	position: absolute;
+	display: flex;
+	height: 10%;
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	padding-top: 1rem;
+}
+#leaders > h2 {
+	display: flex;
+	width: 10%;
+	height: 10%;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0;
+	margin: 0;
+}
